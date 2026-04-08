@@ -1,8 +1,5 @@
 spring:
-  datasource:
-    url: ${SPRING_DB_URL:jdbc:mysql://localhost:3306/peerreview_db?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true}
-    username: ${SPRING_DB_USER:root}
-    password: ${SPRING_DB_PASS:##Suresh123}
+  # Temporarily removed for build testing
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
